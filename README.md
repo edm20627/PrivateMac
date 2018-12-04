@@ -1,1 +1,1 @@
-# privateMac
+# PrivateMac
