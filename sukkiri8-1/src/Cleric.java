@@ -25,4 +25,15 @@ public class Cleric {
 		return recoverActual;
 	}
 
+	public Cleric(String name,int hp,int mp) {
+		this.name=name;
+		this.hp=hp;
+		this.mp=mp;
+	}
+	public Cleric(String name,int hp) {
+		this(name,hp,Cleric.MAX_HP);
+	}
+	public Cleric(String name){
+		this(name,Cleric.MAX_HP);
+	}
 }
